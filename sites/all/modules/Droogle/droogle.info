@@ -1,0 +1,13 @@
+; $Id$
+name = Droogle 
+description = Babson developed module to interract with google apps.
+package = Babson Development
+core = 7.x
+dependencies[] = libraries
+
+; Information added by drupal.org packaging script on 2013-05-06
+version = "7.x-2.0-beta10"
+core = "7.x"
+project = "Droogle"
+datestamp = "1367841313"
+

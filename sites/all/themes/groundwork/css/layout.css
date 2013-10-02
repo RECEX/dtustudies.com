@@ -1,0 +1,343 @@
+/**
+ * Groundwork theme for Drupal
+ * Created by JohnNoc (http://drupal.org/user/70994)
+ * Learn more ~ http://groundwork.noceda.no
+ * GNU General Public License Version 2, June 1991
+ *
+ * DO NOT EDIT. For your CSS overrides, please use local.css or create a subtheme.
+ */
+
+.noceda-sector, .noceda-zone-wrapper {
+  margin:0;
+  padding:0;
+  display:block;
+  outline:0;
+  vertical-align:baseline;
+  width:100%;
+}
+
+.container-24 {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+
+.block {
+  margin:0;
+  padding:0;
+  display:inline;
+  float:left;
+  position:relative;
+  width:100%;
+  margin-bottom:20px;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24, #topbar, #branding, #header, #main-navigation, #billboard, #highlighted, #main-content, #sidebar-first, #sidebar-second, #appendix, #supplement, #footer, #secondary-navigation, #attribution {
+  display:inline;
+  float:left;
+  position:relative;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+/* Grid >> 24 Columns  */
+.grid-1 { width:20px; }
+.grid-2 { width:60px; }
+.grid-3 { width:100px; }
+.grid-4 { width:140px; }
+.grid-5 { width:180px; }
+.grid-6 { width:220px; }
+.grid-7 { width:260px; }
+.grid-8 { width:300px; }
+.grid-9 { width:340px; }
+.grid-10 { width:380px; }
+.grid-11 { width:420px; }
+.grid-12 { width:460px; }
+.grid-13 { width:500px; }
+.grid-14 { width:540px; }
+.grid-15 { width:580px; }
+.grid-16 { width:620px; }
+.grid-17 { width:660px; }
+.grid-18 { width:700px; }
+.grid-19 { width:740px; }
+.grid-20 { width:780px; }
+.grid-21 { width:820px; }
+.grid-22 { width:860px; }
+.grid-23 { width:900px; }
+.grid-24 { width:940px; }
+
+.push-1, .pull-1, .push-2, .pull-2, .push-3, .pull-3, .push-4, .pull-4, .push-5, .pull-5, .push-6, .pull-6, .push-7, .pull-7, .push-8, .pull-8, .push-9, .pull-9, .push-10, .pull-10, .push-11, .pull-11, .push-12, .pull-12, .push-13, .pull-13, .push-14, .pull-14, .push-15, .pull-15, .push-16, .pull-16, .push-17, .pull-17, .push-18, .pull-18, .push-19, .pull-19, .push-20, .pull-20, .push-21, .pull-21, .push-22, .pull-22, .push-23, .pull-23, .push-24, .pull-24 {
+  position: relative;
+}
+/* Push Space >> 24 Columns */
+.push-1 { left:40px; }
+.push-2 { left:80px; }
+.push-3 { left:120px; }
+.push-4 { left:160px; }
+.push-5 { left:200px; }
+.push-6 { left:240px; }
+.push-7 { left:280px; }
+.push-8 { left:320px; }
+.push-9 { left:360px; }
+.push-10 { left:400px; }
+.push-11 { left:440px; }
+.push-12 { left:480px; }
+.push-13 { left:520px; }
+.push-14 { left:560px; }
+.push-15 { left:600px; }
+.push-16 { left:640px; }
+.push-17 { left:680px; }
+.push-18 { left:720px; }
+.push-19 { left:760px; }
+.push-20 { left:800px; }
+.push-21 { left:840px; }
+.push-22 { left:880px; }
+.push-23 { left:920px; }
+
+/* Pull Space >> 24 Columns */
+.pull-1 { left:-40px; }
+.pull-2 { left:-80px; }
+.pull-3 { left:-120px; }
+.pull-4 { left:-160px; }
+.pull-5 { left:-200px; }
+.pull-6 { left:-240px; }
+.pull-7 { left:-280px; }
+.pull-8 { left:-320px; }
+.pull-9 { left:-360px; }
+.pull-10 { left:-400px; }
+.pull-11 { left:-440px; }
+.pull-12 { left:-480px; }
+.pull-13 { left:-520px; }
+.pull-14 { left:-560px; }
+.pull-15 { left:-600px; }
+.pull-16 { left:-640px; }
+.pull-17 { left:-680px; }
+.pull-18 { left:-720px; }
+.pull-19 { left:-760px; }
+.pull-20 { left:-800px; }
+.pull-21 { left:-840px; }
+.pull-22 { left:-880px; }
+.pull-23 { left:-920px; }
+
+/* Prefix Extra Space >> 24 Columns */
+.prefix-1 { padding-left:40px; }
+.prefix-2 { padding-left:80px; }
+.prefix-3 { padding-left:120px; }
+.prefix-4 { padding-left:160px; }
+.prefix-5 { padding-left:200px; }
+.prefix-6 { padding-left:240px; }
+.prefix-7 { padding-left:280px; }
+.prefix-8 { padding-left:320px; }
+.prefix-9 { padding-left:360px; }
+.prefix-10 { padding-left:400px; }
+.prefix-11 { padding-left:440px; }
+.prefix-12 { padding-left:480px; }
+.prefix-13 { padding-left:520px; }
+.prefix-14 { padding-left:560px; }
+.prefix-15 { padding-left:600px; }
+.prefix-16 { padding-left:640px; }
+.prefix-17 { padding-left:680px; }
+.prefix-18 { padding-left:720px; }
+.prefix-19 { padding-left:760px; }
+.prefix-20 { padding-left:800px; }
+.prefix-21 { padding-left:840px; }
+.prefix-22 { padding-left:880px; }
+.prefix-23 { padding-left:920px; }
+
+/* Suffix Extra Space >> 24 Columns */
+.suffix-1 { padding-right:40px; }
+.suffix-2 { padding-right:80px; }
+.suffix-3 { padding-right:120px; }
+.suffix-4 { padding-right:160px; }
+.suffix-5 { padding-right:200px; }
+.suffix-6 { padding-right:240px; }
+.suffix-7 { padding-right:280px; }
+.suffix-8 { padding-right:320px; }
+.suffix-9 { padding-right:360px; }
+.suffix-10 { padding-right:400px; }
+.suffix-11 { padding-right:440px; }
+.suffix-12 { padding-right:480px; }
+.suffix-13 { padding-right:520px; }
+.suffix-14 { padding-right:560px; }
+.suffix-15 { padding-right:600px; }
+.suffix-16 { padding-right:640px; }
+.suffix-17 { padding-right:680px; }
+.suffix-18 { padding-right:720px; }
+.suffix-19 { padding-right:760px; }
+.suffix-20 { padding-right:800px; }
+.suffix-21 { padding-right:840px; }
+.suffix-22 { padding-right:880px; }
+.suffix-23 { padding-right:920px; }
+
+.alpha { margin-left:0; }
+.omega { margin-right:0; }
+
+
+/**
+ * Main Layout
+ */
+
+/* No sidebars >> 24 columns */
+body.no-sidebars #main-content {
+  width:940px;
+}
+
+/* With 2 sidebars >> #main-content = 12 columns. 24 columns - 8 columns (sidebar-first) - 4 columns (sidebar-second) = 12 */
+body.two-sidebars #main-content {
+  width:460px;
+}
+/* Since #main-content holds 12 columns here, choosing more than 12 columns for a block here have no effect */
+body.two-sidebars #content .grid-13, body.two-sidebars #content .grid-14, body.two-sidebars #content .grid-15, body.two-sidebars #content .grid-16, body.two-sidebars #content .grid-17, body.two-sidebars #content .grid-18, body.two-sidebars #content .grid-19, body.two-sidebars #content .grid-20, body.two-sidebars #content .grid-21, body.two-sidebars #content .grid-22, body.two-sidebars #content .grid-23, body.two-sidebars #content .grid-24 {
+  width:460px;
+}
+/* Blocks in the main-content cannot have a prefix wider than the region's width minus 1 column */
+body.two-sidebars #content .prefix-12, body.two-sidebars #content .prefix-13, body.two-sidebars #content .prefix-14, body.two-sidebars #content .prefix-15, body.two-sidebars #content .prefix-16, body.two-sidebars #content .prefix-17, body.two-sidebars #content .prefix-18, body.two-sidebars #content .prefix-19, body.two-sidebars #content .prefix-20, body.two-sidebars #content .prefix-21, body.two-sidebars #content .prefix-22, body.two-sidebars #content .prefix-23 {
+  padding-left: 440px;
+}
+/* Blocks in the main-content cannot have a suffix wider than the region's width minus 1 column */
+body.two-sidebars #content .suffix-12, body.two-sidebars #content .suffix-13, body.two-sidebars #content .suffix-14, body.two-sidebars #content .suffix-15, body.two-sidebars #content .suffix-16, body.two-sidebars #content .suffix-17, body.two-sidebars #content .suffix-18, body.two-sidebars #content .suffix-19, body.two-sidebars #content .suffix-20, body.two-sidebars #content .suffix-21, body.two-sidebars #content .suffix-22, body.two-sidebars #content .suffix-23 {
+  padding-right: 440px;
+}
+
+/* Main content with #sidebar-first >> #main-content = 16 columns. 24 columns - 8 columns (#sidebar-first) = 16 */
+body.sidebar-first #main-content {
+  width:620px;
+}
+/* Since #main-content holds 16 columns here, choosing more than 16 columns for a block here have no effect */
+body.sidebar-first #content .grid-17, body.sidebar-first #content .grid-18, body.sidebar-first #content .grid-19, body.sidebar-first #content .grid-20, body.sidebar-first #content .grid-21, body.sidebar-first #content .grid-22, body.sidebar-first #content .grid-23, body.sidebar-first #content .grid-24 {
+  width:620px;
+}
+/* Blocks in the main-content cannot have a prefix wider than the region's width minus 1 column */
+body.sidebar-first #content .prefix-16, body.sidebar-first #content .prefix-17, body.sidebar-first #content .prefix-18, body.sidebar-first #content .prefix-19, body.sidebar-first #content .prefix-20, body.sidebar-first #content .prefix-21, body.sidebar-first #content .prefix-22, body.sidebar-first #content .prefix-23 {
+  padding-left: 600px;
+}
+/* Blocks in the main-content cannot have a suffix wider than the region's width minus 1 column */
+body.sidebar-first #content .suffix-16, body.sidebar-first #content .suffix-17, body.sidebar-first #content .suffix-18, body.sidebar-first #content .suffix-19, body.sidebar-first #content .suffix-20, body.sidebar-first #content .suffix-21, body.sidebar-first #content .suffix-22, body.sidebar-first #content .suffix-23 {
+  padding-right: 600px;
+}
+
+/* Main content with sidebar second >> #main-content = 20 columns. 24 columns - 4 columns (sidebar-second) = 20 */
+body.sidebar-second #main-content {
+  width:780px;
+}
+/* Since #main-content holds 20 columns here, choosing more than 20 columns for a block here have no effect */
+body.sidebar-second #content .grid-21, body.sidebar-second #content .grid-22, body.sidebar-second #content .grid-23, body.sidebar-second #content .grid-24 {
+  width:780px;
+}
+/* Blocks in the main-content cannot have a prefix wider than the region's width minus 1 column */
+body.sidebar-second #content .prefix-20, body.sidebar-second #content .prefix-21, body.sidebar-second #content .prefix-22, body.sidebar-second #content .prefix-23 {
+  padding-left: 760px;
+}
+/* Blocks in the main-content cannot have a suffix wider than the region's width minus 1 column */
+body.sidebar-second #content .suffix-20, body.sidebar-second #content .suffix-21, body.sidebar-second #content .suffix-22, body.sidebar-second #content .suffix-23 {
+  padding-right: 760px;
+}
+
+
+/**
+ * Sidebar Layout
+ */
+
+/* #sidebar-first holds 8 columns */
+#sidebar-first {
+  width:300px;
+}
+/* Since sidebar-first holds 8 columns, choosing more than 8 columns for a block here have no effect */
+#sidebar-first .grid-9, #sidebar-first .grid-10, #sidebar-first .grid-11, #sidebar-first .grid-12, #sidebar-first .grid-13, #sidebar-first .grid-14, #sidebar-first .grid-15, #sidebar-first .grid-16, #sidebar-first .grid-17, #sidebar-first .grid-18, #sidebar-first .grid-19, #sidebar-first .grid-20,
+#sidebar-first .grid-21, #sidebar-first .grid-22, #sidebar-first .grid-23, #sidebar-first .grid-24 {
+  width:300px;
+}
+/* Blocks in the #sidebar-first region cannot have a prefix wider than the region's width minus 1 column */
+#sidebar-first .prefix-8, #sidebar-first .prefix-9, #sidebar-first .prefix-10, #sidebar-first .prefix-11, #sidebar-first .prefix-12, #sidebar-first .prefix-12, #sidebar-first .prefix-13, #sidebar-first .prefix-14, #sidebar-first .prefix-15, #sidebar-first .prefix-16, #sidebar-first .prefix-17, #sidebar-first .prefix-18, #sidebar-first .prefix-19, #sidebar-first .prefix-20, #sidebar-first .prefix-21, #sidebar-first .prefix-22, #sidebar-first .prefix-23 {
+  padding-left: 280px;
+}
+/* Blocks in the #sidebar-first region cannot have a suffix wider than the region's width minus 1 column */
+#sidebar-first .suffix-8, #sidebar-first .suffix-9, #sidebar-first .suffix-10, #sidebar-first .suffix-11, #sidebar-first .suffix-12, #sidebar-first .suffix-12, #sidebar-first .suffix-13, #sidebar-first .suffix-14, #sidebar-first .suffix-15, #sidebar-first .suffix-16, #sidebar-first .suffix-17, #sidebar-first .suffix-18, #sidebar-first .suffix-19, #sidebar-first .suffix-20, #sidebar-first .suffix-21, #sidebar-first .suffix-22, #sidebar-first .suffix-23 {
+  padding-right: 280px;
+}
+
+/* sidebar-second holds 4 columns */
+#sidebar-second {
+  width:140px;
+}
+/* Since sidebar-second holds 4 columns, choosing more than 4 columns for a block here have no effect */
+#sidebar-second .grid-5, #sidebar-second .grid-6, #sidebar-second .grid-7, #sidebar-second .grid-8, #sidebar-second .grid-9, #sidebar-second .grid-10, #sidebar-second .grid-11, #sidebar-second .grid-12, #sidebar-second .grid-13, #sidebar-second .grid-14, #sidebar-second .grid-15, #sidebar-second .grid-16, #sidebar-second .grid-17, #sidebar-second .grid-18, #sidebar-second .grid-19, #sidebar-second .grid-20, #sidebar-second .grid-21, #sidebar-second .grid-22, #sidebar-second .grid-23, #sidebar-second .grid-24 {
+  width:140px;
+}
+/* Blocks in the #sidebar-second region cannot have a prefix wider than the region's width minus 1 column */
+#sidebar-second .prefix-4, #sidebar-second .prefix-5, #sidebar-second .prefix-6, #sidebar-second .prefix-7, #sidebar-second .prefix-8, #sidebar-second .prefix-8, #sidebar-second .prefix-9, #sidebar-second .prefix-10, #sidebar-second .prefix-11, #sidebar-second .prefix-12, #sidebar-second .prefix-12, #sidebar-second .prefix-13, #sidebar-second .prefix-14, #sidebar-second .prefix-15, #sidebar-second .prefix-16, #sidebar-second .prefix-17, #sidebar-second .prefix-18, #sidebar-second .prefix-19, #sidebar-second .prefix-20, #sidebar-second .prefix-21, #sidebar-second .prefix-22, #sidebar-second .prefix-23 {
+  padding-left: 120px;
+}
+/* Blocks in the #sidebar-second region cannot have a suffix wider than the region's width minus 1 column */
+#sidebar-second .suffix-4, #sidebar-second .suffix-5, #sidebar-second .suffix-6, #sidebar-second .suffix-7, #sidebar-second .suffix-8, #sidebar-second .suffix-9, #sidebar-second .suffix-10, #sidebar-second .suffix-11, #sidebar-second .suffix-12, #sidebar-second .suffix-12, #sidebar-second .suffix-13, #sidebar-second .suffix-14, #sidebar-second .suffix-15, #sidebar-second .suffix-16, #sidebar-second .suffix-17, #sidebar-second .suffix-18, #sidebar-second .suffix-19, #sidebar-second .suffix-20, #sidebar-second .suffix-21, #sidebar-second .suffix-22, #sidebar-second .suffix-23 {
+  padding-right: 120px;
+}
+
+
+/**
+ * Regions
+ */
+
+/* There are no regions and blocks here. 12 columns */
+#branding {
+  width:460px;
+}
+
+/* Header region holds 12 columns. 24 columns - 12 columns (#branding) =  12 columns. */
+#header {
+  width:460px;
+}
+
+/* Since #header holds 12 columns, choosing more than 12 columns for a block here have no effect */
+.region-header .grid-13, .region-header .grid-14, .region-header .grid-15, .region-header .grid-16, .region-header .grid-17, .region-header .grid-18, .region-header .grid-19, .region-header .grid-20,
+.region-header .grid-21, .region-header .grid-22, .region-header .grid-23, .region-header .grid-24 {
+  width:460px;
+}
+/* Blocks in the #header cannot have a prefix wider than the region's width minus 1 column */
+.region-header .prefix-12, .region-header .prefix-13, .region-header .prefix-14, .region-header .prefix-15, .region-header .prefix-16, .region-header .prefix-17, .region-header .prefix-18, .region-header .prefix-19, .region-header .prefix-20, .region-header .prefix-21, .region-header .prefix-22, .region-header .prefix-23 {
+  padding-left: 440px;
+}
+/* Blocks in the #header cannot have a suffix wider than the region's width minus 1 column */
+.region-header .suffix-12, .region-header .suffix-13, .region-header .suffix-14, .region-header .suffix-15, .region-header .suffix-16, .region-header .suffix-17, .region-header .suffix-18, .region-header .suffix-19, .region-header .suffix-20, .region-header .suffix-21, .region-header .suffix-22, .region-header .suffix-23 {
+  padding-right: 440px;
+}
+
+#columns {
+  width: 940px;
+}
+
+/* All these regions have full width, holds 24 columns */
+#topbar, #main-navigation, #billboard, #highlighted, #appendix, #supplement, #footer, #attribution {
+  width: 940px;
+}
+
+/* Aside region for node pages is a special region. All blocks will have 100% width */
+#aside {
+  float:right;
+  margin-right:0;
+  margin-left: 5px;
+  width:180px;
+  display:inline;
+  position:relative;
+}
+
+/* Choosing a column will have no effect */
+.region-aside .grid-1, .region-aside .grid-2, .region-aside .grid-3, .region-aside .grid-4, .region-aside .grid-5, .region-aside .grid-6, .region-aside .grid-7, .region-aside .grid-8, .region-aside .grid-9, .region-aside .grid-10, .region-aside .grid-11, .region-aside .grid-12, .region-aside .grid-13, .region-aside .grid-14, .region-aside .grid-15, .region-aside .grid-16, .region-aside .grid-17, .region-aside .grid-18, .region-aside .grid-19, .region-aside .grid-20,
+.region-aside .grid-21, .region-aside .grid-22, .region-aside .grid-23, .region-aside .grid-24 {
+  width: 180px;
+  margin: 0;
+  padding: 0;
+}
+/* Blocks in the aside region cannot have a prefix either */
+.region-aside .prefix-1, .region-aside .prefix-2, .region-aside .prefix-3, .region-aside .prefix-4, .region-aside .prefix-5, .region-aside .prefix-6, .region-aside .prefix-7, .region-aside .prefix-8, .region-aside .prefix-9, .region-aside .prefix-10, .region-aside .prefix-11, .region-aside .prefix-12, .region-aside .prefix-12, .region-aside .prefix-13, .region-aside .prefix-14, .region-aside .prefix-15, .region-aside .prefix-16, .region-aside .prefix-17, .region-aside .prefix-18, .region-aside .prefix-19, .region-aside .prefix-20, .region-aside .prefix-21, .region-aside .prefix-22, .region-aside .prefix-23 {
+  padding-left: 0;
+}
+/* Blocks in the aside region cannot have a suffix either */
+.region-aside .suffix-1, .region-aside .suffix-2, .region-aside .suffix-3, .region-aside .suffix-4, .region-aside .suffix-5, .region-aside .suffix-6, .region-aside .suffix-7, .region-aside .suffix-8, .region-aside .suffix-9, .region-aside .suffix-10, .region-aside .suffix-11, .region-aside .suffix-12, .region-aside .suffix-12, .region-aside .suffix-13, .region-aside .suffix-14, .region-aside .suffix-15, .region-aside .suffix-16, .region-aside .suffix-17, .region-aside .suffix-18, .region-aside .suffix-19, .region-aside .suffix-20, .region-aside .suffix-21, .region-aside .suffix-22, .region-aside .suffix-23 {
+  padding-right: 0;
+}
+
+/* Secondary menus in footer */
+#secondary-navigation {
+  width: 940px;
+}

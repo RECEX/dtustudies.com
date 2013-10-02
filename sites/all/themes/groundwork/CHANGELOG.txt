@@ -1,0 +1,136 @@
+Groundwork 7.x-1.x 2012-xx-xx (development version)
+-----------------------------
+
+
+Groundwork 7.x-1.2, 2012-11-26
+------------------------------
+- Added support for Admin Menu
+- Fixed typo in CustomWork's template.php
+- Updated README.txt
+- Modified CustomWork/template.php. Fixed a typographical error.
+- Modified inc/groundwork.drush.inc. Fixed error in 3rd example.
+- Added inc/groundwork.drush.inc. Support for creating sub-themes via Drush.
+- Changed subwork to CustomWork
+  * Moved and renamed subwork/subwork.info to CustomWork/CustomWork.info.txt
+  * Moved subwork/css/local.css to CustomWork/css/local.css
+  * Moved subwork/favicon.ico to CustomWork/favicon.ico
+  * Moved subwork/logo.png to CustomWork/logo.png
+  * Moved subwork/screenshot.png to CustomWork/screenshot.png
+- Added CustomWork/template.php
+- Added CustomWork/theme-settings.php
+- Moved groundwork/groundwork to groundwork as this is causing an error in
+  updating the theme via UI (Update Manager)
+  * Moved groundwork/css/formalize.css to css/formalize.css
+  * Moved groundwork/css/groundwork.css to css/groundwork.css
+  * Moved groundwork/css/html-elements.css to css/html-elements.css
+  * Moved groundwork/css/layout.css to css/layout.css
+  * Moved groundwork/css/local-blank.css to css/local-blank.css
+  * Moved groundwork/css/reset.css to css/reset.css
+  * Moved groundwork/favicon.ico to favicon.ico
+  * Moved groundwork/groundwork.info to groundwork.info
+  * Moved groundwork/groundwork.skinr.inc to groundwork.skinr.inc
+  * Moved groundwork/images/block-login.png to images/block-login.png
+  * Moved groundwork/images/button.png to images/button.png
+  * Moved groundwork/images/grid-block.png to images/grid-block.png
+  * Moved groundwork/images/grid.png to images/grid.png
+  * Moved groundwork/images/help.png to images/help.png
+  * Moved groundwork/images/icon-password.png to images/icon-password.png
+  * Moved groundwork/images/icon-search.png to images/icon-search.png
+  * Moved groundwork/images/icon-user.png to images/icon-user.png
+  * Moved groundwork/images/menu-leaf.png to images/menu-leaf.png
+  * Moved groundwork/images/select_arrow.gif to images/select_arrow.gif
+  * Moved groundwork/images/warning.png to images/warning.png
+  * Moved groundwork/inc/template.alter.inc to inc/template.alter.inc
+  * Moved groundwork/inc/template.process.inc to inc/template.process.inc
+  * Moved groundwork/inc/template.theme.inc to inc/template.theme.inc
+  * Moved groundwork/js/jquery.formalize.min.js to js/jquery.formalize.min.js
+  * Moved groundwork/logo.png to logo.png
+  * Moved groundwork/screenshot.png to screenshot.png
+  * Moved groundwork/template.php to template.php
+  * Moved groundwork/templates/block--menu.tpl.php to
+  templates/block--menu.tpl.php
+  * Moved groundwork/templates/block.tpl.php to templates/block.tpl.php
+  * Moved groundwork/templates/comment-wrapper.tpl.php to
+  templates/comment-wrapper.tpl.php
+  * Moved groundwork/templates/comment.tpl.php to templates/comment.tpl.php
+  * Moved groundwork/templates/html.tpl.php to templates/html.tpl.php
+  * Moved groundwork/templates/maintenance-page.tpl.php to
+  templates/maintenance-page.tpl.php
+  * Moved groundwork/templates/node.tpl.php to templates/node.tpl.php
+  * Moved groundwork/templates/page.tpl.php to templates/page.tpl.php
+  * Moved groundwork/templates/region.tpl.php to templates/region.tpl.php
+  * Moved groundwork/templates/search-result.tpl.php to
+  templates/search-result.tpl.php
+  * Moved groundwork/theme-settings.php to theme-settings.php
+
+Groundwork 7.x-1.2, 2012-03-06
+------------------------------
+- Changed theme attribution.
+- Fixed word wrap of book navigation links.
+- Removed height and overflow of top region.
+- Removed margin for last or lonely (alone) blocks in footer region.
+- Fixed bug on maintenance-page.tpl.php
+
+
+Groundwork 7.x-1.1, 2012-01-22
+------------------------------
+- Changed majority of the word grid to column.
+- Bug in aligning the block left, right, or center. The margin for the grid
+  system is getting affected.
+- Gave the maintenance page some loving.
+
+
+Groundwork 7.x-1.0, 2012-01-19
+------------------------------
+- Implemented the push and pull functionality on the 24-column grid system.
+- Added changes made in page.tpl.php to maintenance-page.tpl.php
+- Edited local.css and local-blank.css.
+  * columns is a class not an ID.
+- Edited groundwork.css
+  * Support for WYSIWYG module. Text area is white.
+  * Bug in the browser prefixes of border-radius. there were no dashes.
+  * Bug in menu-inline-style. padding-top had no semi-colon.
+- Edited html-elements.css.
+  * Ordered and unordered lists got a margin-bottom of 1em.
+  * In nested lists, ordered and unordered lists inside a list do not need a
+    bottom margin.
+  * Changed link color to a fresher blue color to accommodate users who wish to
+    use Groundwork as is.
+  * Removed black color in a:hover and added underline text-decoration instead.
+    Hovering to a black does not give a "click me" effect.
+- Added image file button.png. Formalize needs it.
+- Improved some code comments.
+
+
+Groundwork 7.x-1.x-beta3, 2012-01-15
+------------------------------------
+- Fixed Issue #1405606 by Pedro Miguel. PHP Parse error.
+
+
+Groundwork 7.x-1.x-beta2, 2012-01-15
+------------------------------------
+- Added files .gitignore and CHANGELOG.txt.
+- Changed wireframes to block background guides. Site admins must revisit theme
+  settings page.
+- Changed link padding in navigation bar from "0.8em 3em 0.8em 0" to "0.8em
+1.5em"
+  There will be more sites that will benefit from an equal horizontal padding.
+- Fixed some indentations in template.process.inc to adhere to Drupal coding
+  standards.
+- Provided option to turn on/off #attribution in theme settings page.
+  Issue #1404652 by PedroMiguel
+- Added if statement to hide section#sector-extras (if supplement region and/or
+  appendix region is not in use)
+- More descriptive README.txt.
+- Fixed bug in theme settings in subwork.info file
+- Added more tips and comments in the local.css and local-blank.css.
+- Added warning on breaking the layout if wrong prefix and suffix be chosen in
+  Skinr setting.
+- Changed #branding and #footer-section from <div> to <section> for better html5
+  document outline.
+- Added support for secondary menu.
+
+
+Groundwork 7.x-1.x-beta1, 2012-01-12
+------------------------------------
+- First release. Introduced Groundwork Base Theme to the world!

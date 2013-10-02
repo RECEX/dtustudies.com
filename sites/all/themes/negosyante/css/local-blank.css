@@ -1,0 +1,455 @@
+/**
+ * local.css
+ * Use this file for customizations to your subtheme.
+ *
+ * Copy and rename file to local.css
+ * There are no style definitions on this file.
+ * Add your styles and delete the unused ones.
+ *
+ */
+
+html {}
+
+body {}
+
+#page {}
+
+h1, h2, h3, h4, h5, h6 {}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+h1.title {}
+
+p {}
+
+a, a:link, a:visited {}
+a:hover   {}
+a:focus, a:active, a.active {}
+
+/* Override common styling after reset.css and groundwork.css */
+ul, ol {}
+ul {}
+ol {}
+ul ul {}
+ol ol {}
+
+dl {}
+dl dt {}
+dd {}
+
+hr {}
+fieldset {}
+
+table {}
+th {}
+thead th      {}
+th,td,caption {}
+tbody tr:nth-child(even) td,
+tbody tr.even td  {}
+tr.odd {}
+tr.even {}
+tfoot       {}
+caption {}
+.sticky-header th, .sticky-table th {}
+
+img {}
+
+blockquote  {}
+strong,dfn  {}
+em,dfn      {}
+sup, sub    {}
+
+abbr,
+acronym     {}
+address     {}
+del         {}
+
+pre         {}
+pre,code,tt {}
+
+
+
+/**
+ *  5. SECTOR, ZONES and CONTAINERS
+ */
+
+
+#page-wrapper {}
+#page {}
+
+/* SECTORS - Sections that contain different zones and regions */
+.noceda-sector {} /* target all sectors */
+#sector-header {}
+#sector-content {}
+#sector-extras {}
+#sector-footer {}
+
+/* ZONES - Full Width - Outside the container */
+/* Tip: Add your backgrounds here for a full width background */
+.noceda-zone-wrapper {} /* target all zones */
+#topbar-zone {}
+#header-zone {}
+#navbar-zone {}
+#main-zone {}
+#appendix-zone {}
+#supplement-zone {}
+#footer-zone {}
+
+/* CONTAINER - the 960px container */
+/* Tip: Add your backgrounds here for backgrounds within the container */
+.container-24 {} /* target containers of all sections */
+#topbar-section.container-24 {}
+#header-section.container-24 {}
+#navbar-section.container-24 {}
+#billboard-section.container-24 {}
+#main.container-24 {}
+#appendix-section.container-24 {}
+#supplement-section.container-24 {}
+#footer-section.container-24 {}
+
+/* Inner Divs and Regions */
+#header-inner  {}
+#main .columns {}
+
+.noceda-region {} /* target all regions */
+.region {} /* target all regions */
+
+#topbar {}
+#branding {}
+#header {}
+#main-navigation {}
+#billboard {}
+#highlighted {}
+#main-content {}
+#sidebar-first {}
+#sidebar-second {}
+#aside {}
+#appendix {}
+#supplement {}
+#footer {}
+#attribution {}
+
+#main-content-inner {}
+
+/**
+ *  DRUPAL
+ */
+
+/* Branding */
+
+#logo-image {}
+
+div#name-and-slogan {}
+
+h1#site-name {}
+
+h1#site-name a {}
+
+h2#site-slogan {}
+
+/* Navigational links */
+
+#main-navigation ul#main-menu, #main-navigation ul.menu {}
+
+#main-navigation ul#main-menu li, #main-navigation ul.menu li {}
+
+#main-navigation ul#main-menu li a, #main-navigation ul.menu li a {}
+
+#main-navigation ul#main-menu li a:hover, #main-navigation ul.menu li a:hover {}
+
+#main-navigation ul#main-menu li a:focus,
+#main-navigation ul#main-menu li a:active,
+#main-navigation ul#main-menu li a.active,
+#main-navigation ul.menu li a:focus,
+#main-navigation ul.menu li a:active,
+#main-navigation ul.menu li a.active {}
+
+#secondary-navigation ul#secondary-menu {}
+
+#secondary-navigation ul#secondary-menu li {}
+
+#secondary-navigation ul#secondary-menu li a {}
+
+.breadcrumb {}
+
+.breadcrumb-header {}
+
+.crumb-page {}
+
+#skip-link {}
+
+.item-list ul {}
+
+.item-list ul li {}
+
+ul.menu li {}
+
+ul.inline {}
+
+ul.inline li {}
+
+.item-list .pager li {}
+
+/* Search */
+
+ol.search-results {}
+
+h3.search-result-title {}
+
+h3.search-result-title a {}
+
+.search-results .search-url {}
+
+.search-results .search-info {}
+
+/* profile */
+
+.profile {}
+.profile h3 {}
+.profile dt {}
+.profile dd {}
+.password-parent {}
+
+/**
+ * 7. NODES
+ */
+
+.node {}
+h2.node-title {}
+.submitted {}
+.node-content {}
+.node-teaser {}
+
+.views-view-grid .node-teaser {}
+.node .field-name-body  {}
+
+.views-field-field-image  img,
+.field-name-field-image img {}
+
+.node-full .field-name-field-image img {}
+
+.field-name-field-tags {}
+
+.field-name-field-tags .field-item {}
+
+.field-name-field-tags div {}
+
+#forum td.container .description, #forum td.forum .description {}
+
+/**
+ * COMMENTS
+ */
+
+#comments {}
+
+.comment {}
+
+.comment .comment-author {}
+
+.comment .comment-date {}
+
+.comment .content, .comment footer {}
+
+.comment .new {}
+
+.comment ul.inline {}
+
+.comment .user-picture img {}
+
+/**
+ * BLOCKS
+ */
+
+/* General */
+
+.block {}
+
+.block-inner {} /* Box/background styles can be placed here */
+
+h2.block-title {}
+
+/* You may also need to adjust these if you change the block title's background */
+/* It's actually seldom for block titles to be links but some can be. */
+h2.block-title a, h2.block-title a:link {}
+h2.block-title a:visited {}
+h2.block-title a:hover   {}
+h2.block-title a:focus, h2.block-title a:active, h2.block-title a.active {}
+
+.block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.block-content a, .block-content a a:link {}
+.block-content a:visited {}
+.block-content a:hover   {}
+.block-content a:focus, .block-content a:active, .block-content a.active {}
+
+.block p.last-paragraph, .block p:last-child {}
+
+/* Region specific */
+
+.region-highlighted .block-inner, .region-sidebar-first .block-inner, .region-appendix .block-inner, .region-aside .block-inner {}
+
+.region-highlighted h2.block-title, .region-sidebar-first .block-title, .region-appendix h2.block-title, .region-aside h2.block-title {}
+
+.region-highlighted .block-content, .region-sidebar-first .block-content, .region-appendix .block-content, .region-aside .block-content {}
+
+/* STYLE THE BLOCKS IN THE TOPBAR REGION */
+
+.region-topbar .block {}
+.region-topbar .block-inner {} /* Box/background styles can be placed here */
+.region-topbar h2.block-title {}
+.region-topbar .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-topbar .block-content a, .region-topbar .block-content a:link {}
+.region-topbar .block-content a:visited {}
+.region-topbar .block-content a:hover   {}
+.region-topbar .block-content a:focus, .region-topbar .block-content a:active, .region-topbar .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE HEADER REGION */
+
+.region-header .block {}
+.region-header .block-inner {} /* Box/background styles can be placed here */
+.region-header h2.block-title {}
+.region-header .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-header .block-content a, .region-header .block-content a:link {}
+.region-header .block-content a:visited {}
+.region-header .block-content a:hover   {}
+.region-header .block-content a:focus, .region-header .block-content a:active, .region-header .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE MAIN NAVIGATION REGION */
+
+.region-navigation .block {}
+.region-navigation .block-inner {} /* Box/background styles can be placed here */
+.region-navigation h2.block-title {}
+.region-navigation .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-navigation .block-content a, .region-navigation .block-content a:link {}
+.region-navigation .block-content a:visited {}
+.region-navigation .block-content a:hover   {}
+.region-navigation .block-content a:focus, .region-navigation .block-content a:active, .region-navigation .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE BILLBOARD REGION */
+
+.region-billboard .block {}
+.region-billboard .block-inner {} /* Box/background styles can be placed here */
+.region-billboard h2.block-title {}
+.region-billboard .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-billboard .block-content a, .region-billboard .block-content a:link {}
+.region-billboard .block-content a:visited {}
+.region-billboard .block-content a:hover   {}
+.region-billboard .block-content a:focus, .region-billboard .block-content a:active, .region-billboard .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE HIGHLIGHTED REGION */
+
+.region-highlighted .block {}
+.region-highlighted .block-inner {} /* Box/background styles can be placed here */
+.region-highlighted h2.block-title {}
+.region-highlighted .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-highlighted .block-content a, .region-highlighted .block-content a:link {}
+.region-highlighted .block-content a:visited {}
+.region-highlighted .block-content a:hover   {}
+.region-highlighted .block-content a:focus, .region-highlighted .block-content a:active, .region-highlighted .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE MAIN CONTENT REGION */
+
+.region-content .block {}
+.region-content .block-inner {} /* Box/background styles can be placed here */
+.region-content h2.block-title {}
+.region-content .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-content .block-content a, .region-content .block-content a:link {}
+.region-content .block-content a:visited {}
+.region-content .block-content a:hover   {}
+.region-content .block-content a:focus, .region-content .block-content a:active, .region-content .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE SIDEBAR FIRST REGION */
+
+.region-sidebar-first .block {}
+.region-sidebar-first .block-inner {} /* Box/background styles can be placed here */
+.region-sidebar-first h2.block-title {}
+.region-sidebar-first .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-sidebar-first .block-content a, .region-sidebar-first .block-content a:link {}
+.region-sidebar-first .block-content a:visited {}
+.region-sidebar-first .block-content a:hover   {}
+.region-sidebar-first .block-content a:focus, .region-sidebar-first .block-content a:active, .region-sidebar-first .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE SIDEBAR SECOND REGION */
+
+.region-sidebar-second .block {}
+.region-sidebar-second .block-inner {} /* Box/background styles can be placed here */
+.region-sidebar-second h2.block-title {}
+.region-sidebar-second .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-sidebar-second .block-content a, .region-sidebar-second .block-content a:link {}
+.region-sidebar-second .block-content a:visited {}
+.region-sidebar-second .block-content a:hover   {}
+.region-sidebar-second .block-content a:focus, .region-sidebar-second .block-content a:active, .region-sidebar-second .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE ASIDE REGION */
+
+.region-aside .block {}
+.region-aside .block-inner {} /* Box/background styles can be placed here */
+.region-aside h2.block-title {}
+.region-aside .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-aside .block-content a, .region-aside .block-content a:link {}
+.region-aside .block-content a:visited {}
+.region-aside .block-content a:hover   {}
+.region-aside .block-content a:focus, .region-aside .block-content a:active, .region-aside .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE APPENDIX REGION */
+
+.region-appendix .block {}
+.region-appendix.block-inner {} /* Box/background styles can be placed here */
+.region-appendix h2.block-title {}
+.region-appendix .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-appendix .block-content a, .region-appendix .block-content a:link {}
+.region-appendix .block-content a:visited {}
+.region-appendix .block-content a:hover   {}
+.block-content a:focus, .region-appendix .block-content a:active, .region-appendix .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE SUPPLEMENT REGION */
+
+.region-supplement .block {}
+.region-supplement .block-inner {} /* Box/background styles can be placed here */
+.region-supplement h2.block-title {}
+.region-supplement .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-supplement .block-content a, .region-supplement .block-content a:link {}
+.region-supplement .block-content a:visited {}
+.region-supplement .block-content a:hover   {}
+.region-supplement .block-content a:focus, .region-supplement .block-content a:active, .region-supplement .block-content a.active {}
+
+/* STYLE THE BLOCKS IN THE FOOTER REGION */
+
+.region-footer .block {}
+.region-footer .block-inner {} /* Box/background styles can be placed here */
+.region-footer h2.block-title {}
+.region-footer .block-content {}
+
+/* You may also need to adjust these if you change the block content's background */
+.region-footer .block-content a, .region-footer .block-content a:link {}
+.region-footer .block-content a:visited {}
+.region-footer .block-content a:hover   {}
+.region-footer .block-content a:focus, .region-footer .block-content a:active, .region-footer .block-content a.active {}

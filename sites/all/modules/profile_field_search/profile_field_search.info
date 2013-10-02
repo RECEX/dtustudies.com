@@ -1,0 +1,12 @@
+name = Profile Field Search
+description = Allows you to directly search for users via the profile field data.
+package = Search
+
+core = 7.x
+
+; Information added by drupal.org packaging script on 2013-05-25
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "profile_field_search"
+datestamp = "1369450763"
+

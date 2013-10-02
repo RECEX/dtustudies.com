@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Installation code for Droogle.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function droogle_uninstall() {
+  variable_del('advanced_forum_style');
+  variable_del('droogle_upload');
+  variable_del('droogle_user');
+  variable_del('droogle_title_text');
+  variable_del('droogle_password');
+  variable_del('droogle_og_password');
+}

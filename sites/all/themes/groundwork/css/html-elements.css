@@ -1,0 +1,107 @@
+/**
+ * Groundwork for Drupal 7 - Created by JohnNoc (http://www.noceda.no)
+ * DO NOT EDIT. For your CSS overrides, please use local.css or create a subtheme.
+ */
+
+html { font-size:100.01%; }
+
+/* Default font settings.
+   The font-size percentage is of 16px. (0.625 * 16px = 10px) */
+body {
+  background: #FFF;
+  color: #222;
+  font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  min-width: 960px;
+}
+
+/* Since 1em is 10px, it's easier to change the font-size */
+#page {
+  font-size: 1.3em;
+  word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia,Utopia,Palatino,"Palatino Linotype","Book Antiqua",Times,"Times New Roman",serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #111;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+h1 { font-size: 1.6em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.4em; border-bottom: 1px dashed #666; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+h1.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px 10px 0 10px;
+  clear: both;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+}
+
+a, a:link { color: #36C; text-decoration: none; outline: 0; }
+a:visited { color: #36C; }
+a:hover     { text-decoration: underline; }
+a:focus, a:active, a.active { color: 000; }
+
+/* apply common styling after reset.css */
+ul, ol {  margin: 0 1.5em 1em;  padding-left: 1em; }
+ul {  list-style-type: disc; margin-left: 1.1em; }
+ol {  list-style-type: decimal; }
+ul ul, ol ol, ul ol, ol ul {
+  margin-bottom: 0;
+}
+ul ul { list-style-image: url("/misc/menu-leaf.png"); list-style-type:square }
+ol ol { list-style-type:lower-alpha }
+
+dl {  margin: 0 0 1em 0; }
+dl dt {  font-weight: bold; }
+dd {  margin-left: 1em; }
+
+hr {  background: #666;  border: none;  clear: both;  float: none;  height: 1px;  margin: 0 0 1.4375em;  width: 100%; }
+fieldset {  border: 1px solid #ccc;  margin: 0 0 1.4375em;  padding: 1.5em; }
+
+table {  margin-bottom: 1.4em;  width: 100%; }
+th { font-weight: bold; }
+thead th      { background: #DDD; border-bottom: 1px solid #999; border-top: 1px solid #BBB; }
+th,td,caption { padding: 4px 10px 4px 5px; }
+tbody tr:nth-child(even) td,
+tbody tr.even td  {}
+tr.odd { background: #FFF;}
+tr.even { background: #EEE;}
+tfoot       { font-style: italic; }
+caption { font-weight: bold; }
+.sticky-header th, .sticky-table th {  border-bottom: 3px solid #CCC;  padding-right: 1em;  text-align: left; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+blockquote  { margin: 1.5em; font-style: italic; }
+strong,dfn  { font-weight: bold; }
+em,dfn      { font-style: italic; }
+sup, sub    { line-height: 0; }
+
+abbr,
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin: 0 0 1.5em; font-style: italic; }
+del         { color:#666; }
+
+pre         { margin: 1.5em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }

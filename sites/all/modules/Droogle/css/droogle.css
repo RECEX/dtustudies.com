@@ -1,0 +1,99 @@
+/*DROOGLE icons below*/
+.doc {
+  text-indent: 0em;
+}
+
+.xls {
+  text-indent: 0em;
+}
+
+.pdf {
+  text-indent: 0em;
+}
+
+.img {
+  text-indent: 0em;
+}
+
+.png {
+  text-indent: 0em;
+}
+
+
+.pdf-img {
+  color: #F7EFDD;
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 18px;
+  background: transparent url(../images/page_white_acrobat.png) center left no-repeat;
+  float: left;
+}
+.png-img {
+  color: #F7EFDD;
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 18px;
+  background: transparent url(../images/picture.png) center left no-repeat;
+  float: left;
+}
+
+.xls-img {
+  color: #F7EFDD;
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 18px;
+  background: transparent url(../images/page_white_excel.png) center left no-repeat;
+  float: left;
+}
+.doc-img {
+  color: #F7EFDD;
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 18px;
+  background: transparent url(../images/generic_text.png) center left no-repeat;
+  float: left;
+  padding: none;
+}
+
+.folder {
+  margin-left: .5em;
+  text-indent: 1.5em;
+  background: transparent url(../images/folder.png) no-repeat;
+}
+
+/*.folder:first-child {
+  margin: 0em -.5em -1em;
+  text-indent: 1.5em;
+  background: transparent url(../images/folder.png) no-repeat;
+  padding: none;
+}*/
+
+.sub-folder2 {
+  margin-left: 2.5em;
+  text-indent: 1.5em;
+  background: transparent url(../images/folder.png) no-repeat;
+}
+.sub-folder3 {
+  margin-left: 4em;
+  text-indent: 1.5em;
+  background: transparent url(../images/folder.png) no-repeat;
+}
+.sub-folder4 {
+  margin-left: 5.5em;
+  text-indent: 1.5em;
+  background: transparent url(../images/folder.png) no-repeat;
+}
+.sub-folder5 {
+  margin-left: 7em;
+  text-indent: 1.5em;
+  background: transparent url(../images/folder.png) no-repeat;
+}
+
+.droogle-documents {
+  // overflow-y: scroll;
+}
+
+.block-droogle .content {
+  overflow-y: scroll;
+  height: 500px;
+}

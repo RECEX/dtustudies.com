@@ -1,0 +1,79 @@
+; Theme Info -----------------------------------------------------------------
+
+name = Groundwork
+description = Groundwork is an HTML5 24-grid theme based from the 960.gs CSS framework. For documentation, please visit <a href="http://groundwork.noceda.no">http://groundwork.noceda.no</a>. Theme brought to you by Noceda Media Lab.
+core = 7.x
+engine = phptemplate
+
+; Stylesheets  ---------------------------------------------------------------
+
+stylesheets[all][]   = css/reset.css
+stylesheets[all][]   = css/html-elements.css
+stylesheets[all][]   = css/layout.css
+stylesheets[all][]   = css/groundwork.css
+
+; Regions --------------------------------------------------------------------
+; The regions page_top, page_bottom, and help are special hidden regions.
+; Other regions are available for you for block placement.
+
+regions[topbar]             = Top Bar
+regions[header]             = Header
+regions[navigation]         = Navigation Bar
+regions[billboard]          = Billboard
+regions[highlighted]        = Highlighted
+regions[content]            = Main Content
+regions[sidebar_first]      = Sidebar First
+regions[sidebar_second]     = Sidebar Second
+regions[aside]              = Aside
+regions[appendix]           = Appendix
+regions[supplement]         = Supplement
+regions[footer]             = Footer
+regions[page_top]           = Page top
+regions[page_bottom]        = Page bottom
+regions[help]               = Help
+
+
+; Options --------------------------------------------------------------------
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+; Skinr ----------------------------------------------------------------------
+skinr[api] = 2
+
+; Default Theme Settings --------------------------------------------------
+settings[noceda_formalize] = 1
+settings[noceda_horizontal_login_block] = 0
+settings[noceda_form_field_icons] = 1
+settings[noceda_form_field_icons_label] = 0
+settings[noceda_block_icons] = 0
+settings[noceda_book_navigation] = 0
+settings[noceda_hide_attribution] = 0
+settings[noceda_breadcrumb] = yes
+settings[noceda_breadcrumb_header] = 1
+settings[noceda_breadcrumb_home] = 1
+settings[noceda_breadcrumb_separator] = ' › '
+settings[noceda_breadcrumb_trailing] = 1
+settings[noceda_breadcrumb_title] = 0
+settings[noceda_search_type] = 1
+settings[noceda_search_user] = 1
+settings[noceda_search_date] = 1
+settings[noceda_search_comment] = 1
+settings[noceda_search_upload] = 1
+settings[noceda_grid] = 0
+settings[noceda_background_guide] = 0
+
+; Information added by drupal.org packaging script on 2012-11-26
+version = "7.x-1.3"
+core = "7.x"
+project = "groundwork"
+datestamp = "1353908679"
+

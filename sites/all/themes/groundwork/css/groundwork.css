@@ -1,0 +1,885 @@
+/**
+ * Groundwork theme for Drupal
+ * Created by JohnNoc (http://drupal.org/user/70994)
+ * Learn more ~ http://groundwork.noceda.no
+ * GNU General Public License Version 2, June 1991
+ *
+ * DO NOT EDIT. For your CSS overrides, please use local.css or create a subtheme.
+ */
+
+
+/**
+ * HELPERS
+ */
+
+.logged-in.with-grid .container-24 {
+  background: url(../images/grid.png);
+}
+
+.logged-in.with-bg-guide .container-24 .block-inner {
+  background: url(../images/grid-block.png);
+  border: 1px dotted #cccccc;
+}
+
+.logged-in.with-bg-guide .container-24 #main-navigation,
+.logged-in.with-bg-guide .container-24 #secondary-navigation {
+  background: url(../images/grid-block.png);
+  border: 1px dotted #cccccc;
+}
+
+.added {
+  background: #006600;
+  color: #ffffff;
+}
+
+.removed {
+  background: #990000;
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+
+.clearfix:before {
+  content: '\0020';
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+
+.clearfix:after {
+  overflow: hidden;
+  width: 0;
+}
+
+.ie6 .clearfix, .ie7 .clearfix {
+  zoom: 1;
+}
+
+
+/**
+ *  SECTOR, ZONES and CONTAINERS
+ */
+
+.noceda-sector {
+  clear: both;
+} /* target all sectors */
+
+.noceda-zone-wrapper {
+  clear: both;
+} /* target all zones */
+
+#branding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#header {
+  padding-top: 20px;
+}
+
+#main {
+  padding-top: 20px;
+}
+
+#billboard {
+  padding-bottom: 0;
+}
+
+#aside {
+  margin-top: 10px
+}
+
+#attribution {
+  text-align: center;
+}
+
+/**
+ *  DRUPAL
+ */
+
+/* Branding */
+
+#logo-image {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+div#name-and-slogan {
+  margin: 0;
+}
+
+h1#site-name {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 3.4em;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+h1#site-name a {
+  color: #000000;
+}
+
+h2#site-slogan {
+  font-size: 1.3em;
+  margin-top: 5px;
+}
+
+/* Navigational links */
+
+#main-navigation ul#main-menu, #main-navigation ul.menu {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+
+#main-navigation ul#main-menu li, #main-navigation ul.menu li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-navigation ul#main-menu li a, #main-navigation ul.menu li a {
+  display: block;
+  font-weight: bold;
+  padding: 0.8em 1.5em;
+}
+
+#secondary-navigation ul#secondary-menu {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#secondary-navigation ul#secondary-menu li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#secondary-navigation ul#secondary-menu li a {
+  display: block;
+  padding: 0.8em 1.5em;
+}
+
+.breadcrumb {
+  border: 1px dotted #cccccc;
+  clear: both;
+  font-size: 0.769em;
+  font-style: italic;
+  margin: 0 0 10px;
+  padding: 10px;
+}
+
+.breadcrumb-header {
+  margin-right: 0.5em;
+}
+
+.crumb-page {
+  font-weight: bold;
+}
+
+#skip-link {
+  position: absolute;
+}
+
+.item-list ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+
+.item-list ul li {
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu li {
+  margin: 0;
+  padding: 0;
+}
+
+ul.inline {
+  clear: both;
+}
+
+ul.inline li {
+  margin: 0;
+  padding: 0 10px 0 0;
+}
+
+.item-list .pager li {
+  border: 1px solid #cccccc;
+  margin: 0 0 0.25em 0.5em;
+  padding: 0.25 em 0.5em;
+}
+
+/* Forms */
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+  max-width: 100%;
+}
+
+/* Search */
+
+ol.search-results {
+  margin: 0;
+}
+
+h3.search-result-title {
+  border-bottom: none;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+h3.search-result-title a {
+  text-decoration: underline;
+}
+
+.search-results .search-url {
+  color: #009933;
+}
+
+.search-results .search-info {
+  color: #777;
+}
+
+/* Messages */
+
+div.messages {
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+#block-system-help {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  width: 940px;
+}
+
+#block-system-help .block-inner {
+  background: #eeeeee url(../images/help.png) no-repeat 8px 8px;
+  border: none;
+  margin: 10px;
+  padding: 10px 10px 10px 30px;
+}
+
+#block-system-help code, div.messages code {
+  font-weight: 700;
+}
+
+#block-system-help p:last-child, #block-system-help ul:last-child {
+  margin-bottom: 0;
+}
+
+#block-system-help p:first-child {
+  margin-top: 0;
+}
+
+.block-region {
+  background-color: #f7f8f8;
+  border: 2px dashed #dddddd;
+  border-radius: 6px;
+  clear: both;
+  color: #666666;
+  font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif;
+  font-size: 1.077em;
+  font-weight: 400;
+  khtml-border-radius: 6px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  -moz-border-radius: 6px;
+  padding: 3px 6px 1px;
+  -webkit-border-radius: 6px;
+}
+
+.not-logged-in .contextual-links-wrapper {
+  display: none;
+}
+
+#page article.node-unpublished, #page article.comment-unpublished {
+  background-color: #fffce5;
+}
+
+#page .node-unpublished .unpublished, #page .comment-unpublished .unpublished {
+  background: url(../images/warning.png) no-repeat 1px 7px;
+  color: #625b42;
+  font-weight: 700;
+  padding: 5px 10px 10px 20px;
+}
+
+div#acquia-agent-no-search {
+  margin: 8px 0;
+  padding-left: 3em !important;
+}
+
+a.block-demo-backlink, a.block-demo-backlink:link, a.block-demo-backlink:visited {
+  left: 50%;
+  margin-left: -9em;
+  text-align: center;
+  width: 18em;
+}
+
+.vertical-tab-button-error a {
+  border: 1px solid #fc6f5d;
+}
+
+/* Profile */
+
+.profile {
+  margin: 15px 0;
+}
+
+.profile h3 {
+  border: none;
+}
+
+.profile dt {
+  margin-bottom: 0;
+}
+
+.profile dd {
+  margin-bottom: 15px;
+}
+
+.password-parent {
+  width: 36em;
+}
+
+
+/**
+ * NODES
+ */
+
+.node {
+  margin-bottom: 15px;
+}
+
+.node header {
+  clear: both;
+  margin-bottom: 1em;
+}
+
+.node p, .node ol, .node ul, .node dl {
+  margin-bottom: 15px;
+}
+
+.node ol ol, .node ul ul, .node ol ul, .node ul ol {
+  margin-bottom: 0;
+}
+
+.node .user-picture img {
+  float: left;
+  height: auto;
+  margin-right: 5px;
+  max-width: 24px;
+}
+
+h2.node-title {
+  clear: both;
+  font-family: "Droid Serif", Georgia, Times, "Times New Roman", serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-bottom: 0;
+}
+
+.submitted {
+  clear: right;
+  font-size: 0.846em;
+  line-height: 2em;
+}
+
+.node-teaser {
+  margin-bottom: 3em;
+}
+
+.node footer {
+  margin-top: 10px;
+}
+
+.node ul.links {
+  margin: 0;
+}
+
+.views-view-grid .node-teaser {
+  margin-bottom: 0;
+}
+
+.node .field-name-body {
+  margin-top: 10px;
+}
+
+.field-name-field-image img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.sidebar-first .with-aside .field-name-field-image img {
+  max-width: 400px;
+}
+
+.two-sidebars .with-aside .field-name-field-image img {
+  max-width: 240px;
+}
+
+.field-name-field-tags {
+  margin: 0 0 15px;
+}
+
+.field-name-field-tags .field-item {
+  margin: 0 10px 0 0;
+}
+
+.field-name-field-tags div {
+  display: inline;
+}
+
+#forum td.container .description, #forum td.forum .description {
+  font-size: 0.833em;
+}
+
+/* Node Type Specific */
+/* Theme Setting to hide book navigation */
+.no-book-navigation .book-navigation {
+  display: none;
+}
+
+.book-navigation {
+  word-wrap: normal;
+}
+
+/**
+ * COMMENTS
+ */
+
+#comments {
+  clear: both;
+  margin-top: 15px;
+}
+
+.comment {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.comment .comment-author {
+  font-weight: bold;
+}
+
+.comment .comment-date {
+  font-size: 0.833em;
+}
+
+.comment .content, .comment footer {
+  clear: both;
+  margin-top: 10px;
+}
+
+.comment .new {
+  color: red;
+  margin-left: 10px
+  text-transform: capitalize;
+}
+
+.comment ul.inline {
+  margin-right: 0;
+}
+
+.comment .user-picture img {
+  float: right;
+  height: auto;
+  margin-left: 10px;
+  max-width: 60px;
+}
+
+
+/**
+ * BLOCKS
+ */
+
+/* General */
+
+h2.block-title {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  font-style: normal;
+  line-height: 1.2;
+  margin-bottom: 0;
+  padding: 10px 10px 5px;
+
+
+}
+
+.block-content {
+  padding: 5px 10px 10px;
+}
+
+.block p.last-paragraph, .block p:last-child {
+  margin-bottom: 10px;
+}
+
+/* Main Content */
+
+.region-content .block-content {
+  padding-top: 0;
+}
+
+/* Blocks in #topbar region */
+.region-topbar .block {
+  margin-bottom: 0;
+}
+
+.region-topbar .block-inner {
+  line-height: 1.8em;
+}
+
+.region-topbar .block-content {
+  padding: 10px;
+}
+
+/* Blocks in #sidebar-first region */
+.region-sidebar-first #block-user-login .item-list ul li {
+  font-size: 0.833em;
+  list-style: none;
+  list-style-image: none;
+}
+
+/* Blocks in #main-navigation region */
+.region-navigation .block {
+  margin-bottom: 0;
+}
+
+.region-navigation .block-content {
+  padding: 0;
+}
+
+.region-navigation .block-content ul {
+  margin-bottom: 0;
+}
+
+/* Blocks in #sidebar-second region */
+.region-sidebar-second h2.block-title {
+  padding: 0;
+}
+
+.region-sidebar-second .block-content {
+  font-size: 0.83em;
+  padding: 0;
+}
+
+/* Blocks in #aside region */
+.region-aside .block {
+  margin-bottom: 10px;
+}
+
+.region-aside .block-inner {
+  background: #FFF;
+}
+
+.region-aside .block-content {
+  padding-top: 10px;
+}
+
+.region-aside .block .block-content ul.menu {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+/* Blocks in #footer region */
+.region-footer .block-alone, .region-footer .block-last  {
+  margin-bottom: 0;
+}
+
+.region-footer .block-content {
+  font-size: 0.83em;
+}
+
+/**
+ * Specific blocks
+ */
+
+
+/* Target the user login form if it is in the sidebar-first region */
+#sidebar-first #block-user-login .form-item-name label, #sidebar-first #block-user-login .form-item-pass label {
+  float: left;
+  margin-right: 0.5em;
+}
+
+/* HORIZONTAL LOGIN BLOCK */
+
+#block-user-login.horizontal-login-block {
+  display: inline;
+}
+
+#block-user-login.horizontal-login-block .form-item-name, #block-user-login.horizontal-login-block .form-item-pass {
+  float: left;
+  margin: 0 0.5em 0 0;
+}
+
+#block-user-login.horizontal-login-block .form-item-name label, #block-user-login.horizontal-login-block .form-item-pass label {
+  float: left;
+  margin-right: 0.5em;
+}
+
+#block-user-login.horizontal-login-block .item-list ul li {
+  font-size: 0.833em;
+  list-style: none;
+  list-style-image: none;
+}
+
+#block-user-login.horizontal-login-block .form-actions {
+  float: left;
+  margin: 0 0.5em 0 0;
+}
+
+
+#block-user-login.horizontal-login-block .form-item-openid-identifier, #block-user-login.horizontal-login-block .item-list ul.openid-links {
+  display: none;
+}
+
+#block-user-login.horizontal-login-block .item-list {
+  float: left;
+  font-size: 0.833em;
+  margin-right: 0.5em;
+  text-align: left;
+}
+
+#block-user-login.horizontal-login-block .item-list ul {
+  padding: 0;
+}
+
+#block-user-login.horizontal-login-block .item-list ul li {
+  line-height: 1.5em;
+}
+
+#block-user-login.horizontal-login-block .item-list ul li.first.last {
+  line-height: 3em;
+}
+
+/* Theme setting : Remove labels */
+.no-form-labels #block-user-login .form-item label {
+  clip: rect(1px,1px,1px,1px);
+  position: absolute !important;
+}
+
+/**
+ * ICONS
+ */
+
+/* Form fields */
+.noceda-form-field-icons #block-user-login .form-item-name input {
+  background: url(../images/icon-user.png) no-repeat 2px 2px #ffffff;
+  padding-left: 18px;
+}
+
+.noceda-form-field-icons #block-user-login .form-item-pass input {
+  background: url(../images/icon-password.png) no-repeat 2px 2px #ffffff;
+  padding-left: 18px;
+}
+
+/* Webkit auto fill hides the icon so padding should be reduced. */
+.noceda-form-field-icons #block-user-login .form-item-name input:-webkit-autofill, .noceda-form-field-icons #block-user-login .form-item-pass input:-webkit-autofill {
+  padding-left: 5px;
+}
+
+.noceda-form-field-icons #search-block-form input[type="search"] {
+  background: url(../images/icon-search.png) no-repeat scroll 2px 2px #ffffff;
+  padding-left: 18px;
+}
+
+/**
+ * SKINR
+ * Other Skinr styles are already incorporated in layout.css
+ */
+
+/* Content Alignment */
+
+.noceda-align-content-center, .noceda-align-content-center ul.menu, .noceda-align-content-center.item-list ul {
+  text-align: center;
+}
+
+.noceda-align-content-center ul.menu, .noceda-align-content-center.item-list ul {
+  margin: 0;
+}
+
+.noceda-align-content-right, .noceda-align-content-right ul.menu, .noceda-align-content-right.item-list ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+}
+
+.noceda-align-content-right ul.menu, .noceda-align-content-right.item-list ul {
+  margin: 0;
+}
+
+.noceda-align-content-right li, .noceda-align-content-right ul.menu li.leaf, .noceda-align-content-right ul.menu li, .noceda-align-content-right.item-list ul li {
+  background-image: url(../images/menu-leaf.png);
+  background-position: 100% .4em;
+  background-repeat: no-repeat;
+  list-style-image: none;
+  padding-right: 13.75em;
+}
+
+.noceda-align-content-left, .noceda-align-content-left ul.menu, .noceda-align-content-left.item-list ul {
+  text-align: left;
+}
+
+.noceda-align-content-left ul.menu, .noceda-align-content-left.item-list ul {
+  margin: 0;
+}
+
+.noceda-align-content-center ul.menu li, .noceda-align-content-center.item-list ul li {
+  list-style: none;
+  margin: 0;
+}
+
+/* Menu Style */
+.noceda-menu-style-inline {}
+
+.noceda-menu-style-multi .content ul, #topbar .noceda-menu-style-inline .content ul {
+  margin: 0;
+  padding: 0;
+}
+
+.noceda-menu-style-inline h2, .noceda-menu-style-multi h2 {
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+
+.noceda-menu-style-inline .content ul.menu li, .noceda-menu-style-inline .content ul li{
+  display: inline;
+  float: left;
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.noceda-menu-style-inline li div.views-field-title {
+  line-height: 1em;
+}
+
+.noceda-menu-style-inline .content ul.menu li a, .noceda-menu-style-inline .content ul li a {
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 1em;
+  padding-bottom: 10px;
+  padding-left: 1em;
+}
+
+.noceda-menu-style-multi .content {
+  overflow: auto;
+}
+
+.noceda-menu-style-multi .content ul li {
+  display: block;
+  float: left;
+  font-weight: 700;
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  width: 160px;
+}
+
+.noceda-menu-style-multi .content ul li.expanded ul {
+  display: block;
+  margin-left: 0;
+  width: 160px;
+}
+
+.noceda-menu-style-multi .content ul li.expanded ul li {
+  border: none;
+  display: block;
+}
+
+.noceda-menu-style-multi .content ul.menu li ul.menu li {
+  font-weight: 400;
+}
+
+/* Block Padding */
+
+#topbar .block-padding-h .block-content, #header .block-padding-h .block-content, #main-navigation .block-padding-h .block-content, #billboard .block-padding-h .block-content, #highlighted .block-padding-h .block-content, #main-content .block-padding-h .block-content, #sidebar-first .block-padding-h .block-content, #sidebar-second .block-padding-h .block-content, #aside .block-padding-h .block-content,
+#appendix .block-padding-h .block-content, #supplement .block-padding-h .block-content, #footer .block-padding-h .block-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#topbar .block-padding-v .block-content, #header .block-padding-v .block-content, #main-navigation .block-padding-v .block-content, #billboard .block-padding-v .block-content, #highlighted .block-padding-v .block-content, #main-content .block-padding-v .block-content, #sidebar-first .block-padding-v .block-content, #sidebar-second .block-padding-v .block-content, #aside .block-padding-v .block-content,
+#appendix .block-padding-v .block-content, #supplement .block-padding-v .block-content, #footer .block-padding-v .block-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/**
+ * VIEWS
+ */
+
+.views-view-grid.cols-2 td {
+  vertical-align: top;
+  width: 50%;
+}
+
+.views-view-grid.cols-3 td {
+  vertical-align: top;
+  width: 33%;
+}
+
+.views-view-grid.cols-4 td {
+  vertical-align: top;
+  width: 25%;
+}
+
+/**
+ *  WYSIWYG
+ */
+
+body.wysiwyg-editor {
+  background: #FFF;
+  color: #000;
+}
+
+/**
+ * ADMINISTRATION MENU
+ */
+
+html body.admin-menu {
+  margin-top: 0 !important;
+  padding-top: 29px !important;
+}
+
+#admin-menu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
